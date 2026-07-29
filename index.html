@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Lifecycle Management | Infor CloudSuite</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-shell">
+        <!-- === HEADER === -->
+        <header class="ids-header">
+            <div class="ids-header__left">
+                <div class="ids-header__logo">
+                    <img src="images/infor-logo.png" alt="Infor">
+                </div>
+                <span class="ids-header__divider"></span>
+                <span class="ids-header__app-name">CloudSuite</span>
+                <span class="ids-header__module">Product Lifecycle Management</span>
+            </div>
+            <div class="ids-header__right">
+                <span class="ids-header__copyright">Copyright &copy; 2025. Infor. All Rights Reserved. infor.com</span>
+            </div>
+        </header>
+
+        <div class="app-body">
+            <!-- === LEFT NAVIGATION === -->
+            <nav class="ids-nav">
+                <div class="ids-nav__section">
+                    <div class="ids-nav__label">Application</div>
+                    <a class="ids-nav__item ids-nav__item--active" data-section="overview">
+                        <svg class="ids-nav__icon" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                        <span>Overview</span>
+                    </a>
+                </div>
+                <div class="ids-nav__section">
+                    <div class="ids-nav__label">Process Flows</div>
+                    <a class="ids-nav__item" data-section="engineering-flow">
+                        <svg class="ids-nav__icon" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                        <span>Engineering Data Flow</span>
+                    </a>
+                    <a class="ids-nav__item" data-section="quality-ncr">
+                        <svg class="ids-nav__icon" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+                        <span>Quality NCR Integration</span>
+                    </a>
+                    <a class="ids-nav__item" data-section="project-activity">
+                        <svg class="ids-nav__icon" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+                        <span>Project Activity Integration</span>
+                    </a>
+                </div>
+            </nav>
+
+            <!-- === MAIN CONTENT === -->
+            <main class="ids-main">
+
+
+                <!-- ====================== OVERVIEW ====================== -->
+                <section class="ids-page ids-page--active" id="page-overview">
+                    <!-- Hero -->
+                    <div class="ids-hero">
+                        <div class="ids-hero__content">
+                            <div class="ids-hero__eyebrow">Infor CloudSuite</div>
+                            <h1 class="ids-hero__title">Product Lifecycle Management</h1>
+                            <p class="ids-hero__subtitle">End-to-end engineering lifecycle management — from CAD design through change control to production release.</p>
+                        </div>
+                        <img class="ids-hero__image" src="images/slide2_Picture_27.png" alt="CAD Engineering Design Environment">
+                    </div>
+
+                    <!-- Key Metrics -->
+                    <div class="ids-grid ids-grid--4 ids-mb-lg">
+                        <div class="ids-stat">
+                            <div class="ids-stat__value">CAD</div>
+                            <div class="ids-stat__label">Design &amp; Modeling</div>
+                        </div>
+                        <div class="ids-stat">
+                            <div class="ids-stat__value">PLM</div>
+                            <div class="ids-stat__label">Items &amp; BOMs</div>
+                        </div>
+                        <div class="ids-stat">
+                            <div class="ids-stat__value">ERP</div>
+                            <div class="ids-stat__label">Production Release</div>
+                        </div>
+                        <div class="ids-stat">
+                            <div class="ids-stat__value">IDM</div>
+                            <div class="ids-stat__label">Document Management</div>
+                        </div>
+                    </div>
+
+                    <!-- Platform Overview Card -->
+                    <div class="ids-card">
+                        <div class="ids-card__header">
+                            <h2 class="ids-card__title">Platform Capabilities</h2>
+                            <span class="ids-card__badge">CloudSuite PLM</span>
+                        </div>
+                        <div class="ids-card__body">
+                            <div class="ids-grid ids-grid--2">
+                                <div>
+                                    <p class="ids-text-sm ids-text-muted ids-mb-md">
+                                        Infor CloudSuite PLM enables seamless data flow from CAD design through engineering change management to production. Connect CAD tools, document management, change control workflows, and ERP into a unified engineering ecosystem built for Infor CloudSuite.
+                                    </p>
+                                    <div class="ids-feature-list">
+                                        <div class="ids-feature-item">
+                                            <div class="ids-feature-item__icon">1</div>
+                                            <div class="ids-feature-item__text"><strong>CAD Design</strong> — Create models, drawings, manage configurations</div>
+                                        </div>
+                                        <div class="ids-feature-item">
+                                            <div class="ids-feature-item__icon">2</div>
+                                            <div class="ids-feature-item__text"><strong>PLM Engineering</strong> — Change control, workflows, revision management</div>
+                                        </div>
+                                        <div class="ids-feature-item">
+                                            <div class="ids-feature-item__icon">3</div>
+                                            <div class="ids-feature-item__text"><strong>Production Release</strong> — Global &amp; site-level items, BOMs</div>
+                                        </div>
+                                        <div class="ids-feature-item">
+                                            <div class="ids-feature-item__icon">4</div>
+                                            <div class="ids-feature-item__text"><strong>Document Mgmt</strong> — Infor Document Management (IDM)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ids-screenshot">
+                                    <img src="images/slide2_Group_28_Picture_29.png" alt="Infor CloudSuite PLM Interface">
+                                    <div class="ids-screenshot__caption">Infor CloudSuite PLM — Native application interface</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- ====================== ENGINEERING DATA FLOW ====================== -->
+                <section class="ids-page" id="page-engineering-flow">
+                    <div class="ids-page-header">
+                        <div class="ids-page-header__breadcrumb"><a href="#">Process Flows</a> / Engineering Data Flow</div>
+                        <h1 class="ids-page-header__title">Engineering Data and Document Flow</h1>
+                    </div>
+
+                    <!-- Process Flow -->
+                    <div class="ids-card">
+                        <div class="ids-card__header">
+                            <h2 class="ids-card__title">Data Flow Architecture</h2>
+                            <span class="ids-card__badge">CAD &rarr; PLM &rarr; Production</span>
+                        </div>
+                        <div class="ids-card__body">
+                            <div class="ids-process-flow">
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">1</div>
+                                    <div class="ids-process-step__title">CAD</div>
+                                    <div class="ids-process-step__desc">Models &amp; Drawings</div>
+                                </div>
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">2</div>
+                                    <div class="ids-process-step__title">CAD Integrations</div>
+                                    <div class="ids-process-step__desc">Standard bidirectional sync</div>
+                                </div>
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">3</div>
+                                    <div class="ids-process-step__title">PLM Items / BOMs</div>
+                                    <div class="ids-process-step__desc">Engineering sandbox</div>
+                                </div>
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">4</div>
+                                    <div class="ids-process-step__title">Production Items / BOMs</div>
+                                    <div class="ids-process-step__desc">Global &amp; site level</div>
+                                </div>
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">5</div>
+                                    <div class="ids-process-step__title">Infor CloudSuite ERP</div>
+                                    <div class="ids-process-step__desc">IDM / Document Mgmt</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Screenshots -->
+                    <div class="ids-grid ids-grid--3 ids-mb-md">
+                        <div class="ids-screenshot">
+                            <img src="images/slide2_Picture_27.png" alt="CAD Design Environment">
+                            <div class="ids-screenshot__caption">CAD Design Environment</div>
+                        </div>
+                        <div class="ids-screenshot">
+                            <img src="images/slide2_Group_28_Picture_29.png" alt="PLM Items and BOMs">
+                            <div class="ids-screenshot__caption">PLM Items &amp; BOMs</div>
+                        </div>
+                        <div class="ids-screenshot">
+                            <img src="images/slide2_Group_31_Picture_32.png" alt="Production Items and BOMs">
+                            <div class="ids-screenshot__caption">Production Items &amp; BOMs</div>
+                        </div>
+                    </div>
+
+                    <!-- Role Cards -->
+                    <div class="ids-grid ids-grid--2">
+                        <div class="ids-role-card">
+                            <div class="ids-role-card__title">
+                                <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                                ROLE &mdash; CAD Engineer / Designer
+                            </div>
+                            <ul class="ids-role-card__list">
+                                <li>Create Models and Drawings</li>
+                                <li>Assign, modify Attributes</li>
+                                <li>Manage Configurations</li>
+                                <li>Automatically create Neutral Files (STEP, 3D PDF, bmp, etc.)</li>
+                            </ul>
+                        </div>
+                        <div class="ids-role-card">
+                            <div class="ids-role-card__title">
+                                <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                                ROLE &mdash; PLM Engineer / Designer
+                            </div>
+                            <ul class="ids-role-card__list">
+                                <li>Engineering sandbox</li>
+                                <li>Publish the CAD Model</li>
+                                <li>Change Management w/Workflow (NPI, ECO, ECN, Approval, etc.)</li>
+                                <li>Item and Document Revision Control</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Outputs -->
+                    <div class="ids-card ids-mt-md">
+                        <div class="ids-card__header">
+                            <h2 class="ids-card__title">Production Outputs</h2>
+                        </div>
+                        <div class="ids-card__body">
+                            <div class="ids-grid ids-grid--3">
+                                <div class="ids-output-box">
+                                    <div class="ids-output-box__title">Production Item, BOM</div>
+                                    <div class="ids-output-box__desc">Global Level</div>
+                                </div>
+                                <div class="ids-output-box">
+                                    <div class="ids-output-box__title">Production BOM</div>
+                                    <div class="ids-output-box__desc">Site Level</div>
+                                </div>
+                                <div class="ids-output-box">
+                                    <div class="ids-output-box__title">IDM</div>
+                                    <div class="ids-output-box__desc">Infor Document Management</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- ====================== QUALITY NCR ====================== -->
+                <section class="ids-page" id="page-quality-ncr">
+                    <div class="ids-page-header">
+                        <div class="ids-page-header__breadcrumb"><a href="#">Process Flows</a> / Quality NCR Integration</div>
+                        <h1 class="ids-page-header__title">Link Quality NCR to PLM Business Process</h1>
+                    </div>
+
+                    <!-- Process Flow -->
+                    <div class="ids-card">
+                        <div class="ids-card__header">
+                            <h2 class="ids-card__title">Integration Process</h2>
+                            <span class="ids-card__badge">Quality &rarr; PLM</span>
+                        </div>
+                        <div class="ids-card__body">
+                            <div class="ids-process-flow">
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">1</div>
+                                    <div class="ids-process-step__title">Quality NCR</div>
+                                    <div class="ids-process-step__desc">Non-Conformance raised</div>
+                                </div>
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">2</div>
+                                    <div class="ids-process-step__title">Link to PLM</div>
+                                    <div class="ids-process-step__desc">Associate with item</div>
+                                </div>
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">3</div>
+                                    <div class="ids-process-step__title">PLM Business Process</div>
+                                    <div class="ids-process-step__desc">ECR, ECN, NPI</div>
+                                </div>
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">4</div>
+                                    <div class="ids-process-step__title">Resolution</div>
+                                    <div class="ids-process-step__desc">Approved &amp; released</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content area with screenshots -->
+                    <div class="ids-grid ids-grid--2 ids-mb-md">
+                        <div class="ids-card">
+                            <div class="ids-card__header">
+                                <h2 class="ids-card__title">Quality NCR Interface</h2>
+                            </div>
+                            <div class="ids-card__body">
+                                <div class="ids-screenshot">
+                                    <img src="images/slide3_Group_9_Picture_3.png" alt="Quality NCR Interface">
+                                    <div class="ids-screenshot__caption">Quality NCR module &mdash; Non-Conformance Report management</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ids-card">
+                            <div class="ids-card__header">
+                                <h2 class="ids-card__title">PLM Business Process</h2>
+                                <span class="ids-card__badge">ECR, ECN, NPI</span>
+                            </div>
+                            <div class="ids-card__body">
+                                <div class="ids-screenshot ids-mb-sm">
+                                    <img src="images/slide3_Group_16_Picture_11.png" alt="PLM Business Process">
+                                    <div class="ids-screenshot__caption">PLM Business Process workflow</div>
+                                </div>
+                                <div class="ids-screenshot">
+                                    <img src="images/slide3_Group_16_Picture_14.png" alt="Workflow Status">
+                                    <div class="ids-screenshot__caption">Workflow status and approval tracking</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Integration Details Accordion -->
+                    <div class="ids-card">
+                        <div class="ids-card__header">
+                            <h2 class="ids-card__title">Integration Capabilities</h2>
+                        </div>
+                        <div class="ids-card__body">
+                            <div class="ids-accordion">
+                                <div class="ids-accordion__item">
+                                    <button class="ids-accordion__trigger ids-accordion__trigger--active" data-accordion="ncr">
+                                        <span>NCR-to-PLM Linkage</span>
+                                        <span class="ids-accordion__chevron">&#9660;</span>
+                                    </button>
+                                    <div class="ids-accordion__panel ids-accordion__panel--open">
+                                        Directly associate Quality Non-Conformance Reports with PLM engineering items, enabling full traceability from quality events to engineering changes and production updates.
+                                    </div>
+                                </div>
+                                <div class="ids-accordion__item">
+                                    <button class="ids-accordion__trigger" data-accordion="ncr">
+                                        <span>Automated Business Process Triggers</span>
+                                        <span class="ids-accordion__chevron">&#9660;</span>
+                                    </button>
+                                    <div class="ids-accordion__panel">
+                                        Quality events automatically trigger PLM business processes such as Engineering Change Requests (ECR), Engineering Change Notices (ECN), or New Product Introductions (NPI) with configurable rules.
+                                    </div>
+                                </div>
+                                <div class="ids-accordion__item">
+                                    <button class="ids-accordion__trigger" data-accordion="ncr">
+                                        <span>Workflow-Driven Approvals</span>
+                                        <span class="ids-accordion__chevron">&#9660;</span>
+                                    </button>
+                                    <div class="ids-accordion__panel">
+                                        Configurable multi-level approval workflows ensure proper review gates for engineering changes initiated from quality events. Full audit trail maintained.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- ====================== PROJECT ACTIVITY ====================== -->
+                <section class="ids-page" id="page-project-activity">
+                    <div class="ids-page-header">
+                        <div class="ids-page-header__breadcrumb"><a href="#">Process Flows</a> / Project Activity Integration</div>
+                        <h1 class="ids-page-header__title">Link Project Activity to PLM Business Process</h1>
+                    </div>
+
+                    <!-- Process Flow -->
+                    <div class="ids-card">
+                        <div class="ids-card__header">
+                            <h2 class="ids-card__title">Integration Process</h2>
+                            <span class="ids-card__badge">Project &rarr; PLM</span>
+                        </div>
+                        <div class="ids-card__body">
+                            <div class="ids-process-flow">
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">1</div>
+                                    <div class="ids-process-step__title">Project Activity</div>
+                                    <div class="ids-process-step__desc">Task or milestone</div>
+                                </div>
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">2</div>
+                                    <div class="ids-process-step__title">Link to PLM</div>
+                                    <div class="ids-process-step__desc">Engineering scope</div>
+                                </div>
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">3</div>
+                                    <div class="ids-process-step__title">PLM Business Process</div>
+                                    <div class="ids-process-step__desc">ECR, ECN, NPI</div>
+                                </div>
+                                <div class="ids-process-step">
+                                    <div class="ids-process-step__icon">4</div>
+                                    <div class="ids-process-step__title">Release</div>
+                                    <div class="ids-process-step__desc">Changes to production</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tabbed views of screenshots -->
+                    <div class="ids-card">
+                        <div class="ids-card__header">
+                            <h2 class="ids-card__title">System Views</h2>
+                        </div>
+                        <div class="ids-card__body">
+                            <div class="ids-tabs__nav">
+                                <button class="ids-tabs__btn ids-tabs__btn--active" data-tab="tab-project-overview">Project Activity</button>
+                                <button class="ids-tabs__btn" data-tab="tab-plm-process">PLM Business Process</button>
+                                <button class="ids-tabs__btn" data-tab="tab-workflow">Workflow Status</button>
+                            </div>
+
+                            <div class="ids-tabs__panel ids-tabs__panel--active" id="tab-project-overview">
+                                <div class="ids-grid ids-grid--2">
+                                    <div class="ids-screenshot">
+                                        <img src="images/slide4_Picture_22.png" alt="Project Activity Interface">
+                                        <div class="ids-screenshot__caption">Project Activity management &mdash; task and milestone tracking</div>
+                                    </div>
+                                    <div class="ids-screenshot">
+                                        <img src="images/slide4_Picture_3.png" alt="Project Activity Detail">
+                                        <div class="ids-screenshot__caption">Project Activity detail view with PLM linkage</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ids-tabs__panel" id="tab-plm-process">
+                                <div class="ids-grid ids-grid--2">
+                                    <div class="ids-screenshot">
+                                        <img src="images/slide4_Picture_11.png" alt="PLM Business Process">
+                                        <div class="ids-screenshot__caption">PLM Business Process linked from project activities</div>
+                                    </div>
+                                    <div class="ids-screenshot">
+                                        <img src="images/slide4_Picture_32.png" alt="PLM Engineering Change">
+                                        <div class="ids-screenshot__caption">Engineering change workflow initiated by project</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ids-tabs__panel" id="tab-workflow">
+                                <div class="ids-grid ids-grid--2">
+                                    <div class="ids-screenshot">
+                                        <img src="images/slide4_Picture_34.png" alt="Workflow Tracking">
+                                        <div class="ids-screenshot__caption">Workflow status and approval progression</div>
+                                    </div>
+                                    <div class="ids-screenshot">
+                                        <img src="images/slide4_Picture_14.png" alt="Approval History">
+                                        <div class="ids-screenshot__caption">Approval history and audit trail</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Benefits -->
+                    <div class="ids-card">
+                        <div class="ids-card__header">
+                            <h2 class="ids-card__title">Integration Benefits</h2>
+                        </div>
+                        <div class="ids-card__body">
+                            <div class="ids-grid ids-grid--3">
+                                <div class="ids-stat">
+                                    <div class="ids-stat__value">&#128279;</div>
+                                    <div class="ids-stat__label">Direct project-to-PLM traceability</div>
+                                </div>
+                                <div class="ids-stat">
+                                    <div class="ids-stat__value">&#9889;</div>
+                                    <div class="ids-stat__label">Automated workflow triggers from project milestones</div>
+                                </div>
+                                <div class="ids-stat">
+                                    <div class="ids-stat__value">&#128200;</div>
+                                    <div class="ids-stat__label">Real-time engineering progress visibility</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
